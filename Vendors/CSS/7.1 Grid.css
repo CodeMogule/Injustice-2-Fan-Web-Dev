@@ -77,5 +77,11 @@
 	width: 66.13%; 
 }
 
-.span-1-of-3 {
-	wi
+/*  GRID OF FOUR  */
+.span_1_of_4 {
+	width: 23.8%;
+}
+
+.span_4_of_4 {
+	width: 100%;
+}
