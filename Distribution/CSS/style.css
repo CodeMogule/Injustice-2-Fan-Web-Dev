@@ -13,6 +13,7 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+
 header{
     background-image: linear-gradient(rgba(37, 20, 20, 0.726),rgba(37, 20, 20, 0.459)),url(../IMGS/Hero.jpg);
     background-repeat: no-repeat;
@@ -233,9 +234,106 @@ width: 25%;
     
 }
 
+.section-quotes{
+padding: 0;
+}
 
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 140%;
+    color: #fff;
+}
 
+blockquote::before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: relative;
+    right: 25px;
+    top: 10px;
+}
 
+cite{
+    display: block;
+    font-size: 120%;
+    margin-top: 25px;
+    color: #fff;
+}
+
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.section-plan{
+transform: translate(0,7%);
+}
+
+.price-box{
+    background: url(../IMGS/unnamed.jpg) no-repeat;
+    background-size: cover;
+    width: 90%;
+   text-align: center;
+  
+}
+
+.price-box div{
+padding: 16px;
+border-bottom: 1px solid white;
+}
+
+.price img{
+    height: 300px;
+}
+
+.price p{
+    font-size:300% ;
+    color: #29C5FF;
+}
+
+.dlc ul {
+    list-style: none;
+}
+
+.dlc ul li {
+    padding: 6px 0;
+    color: #fff;
+}
+
+.dlc ul li i {
+    color: #29C5FF;
+    padding: 10px;
+}
+
+.price-box div:last-child{
+    text-align: center;
+}
+
+form{
+    margin-left: 50px;
+    transform: translate(10%);
+}
+
+label{
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+input{
+    width: 50%;
+    height: 35px;
+    padding: 6px 12px;
+    display: block;
+}
+
+#btn-form{
+    text-align: center;
+    margin-top: 50px;
+}
 
 .btn:link,
 .btn:visited{
