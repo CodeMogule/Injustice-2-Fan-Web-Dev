@@ -1,0 +1,59 @@
+@media Only screen and (max-width: 1200px){
+    header{
+    width: 100%;
+    background-size:cover;
+    padding-left: 100px;
+    }
+
+    .row{
+        padding: 2% 0;
+    }
+
+    .hero-text{
+        padding-left: 50px;
+    }
+}
+
+@media Only screen and (max-width: 1024px){
+    .main-nav{
+        padding-right: 10px;
+    }
+
+    .hero-text{
+        padding-right: 20px;
+    }
+
+    .hero-text h1{
+       font-size: 170%;
+    }
+
+    
+}
+
+@media Only screen and (max-width: 768px){
+    header{
+     height: 100px;
+     padding: 30px;
+     width: 150%;
+    }
+
+    .logo{
+        margin-left: 50px;
+    }
+
+    .hero-text{
+        font-size: 140%;
+    }
+
+    .btn{
+        margin: 10px;
+    }
+
+    .row{
+        margin-left: 50px;
+    }
+}
+
+@media Only screen and (max-width: 480px){
+    
+}

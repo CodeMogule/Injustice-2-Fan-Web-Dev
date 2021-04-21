@@ -13,14 +13,28 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background: #000000cb; 
+  }
+
+
+  ::-webkit-scrollbar-thumb:hover{
+    background: #29C5FF; 
+  }
+
+
 
 header{
     background-image: linear-gradient(rgba(37, 20, 20, 0.726),rgba(37, 20, 20, 0.459)),url(../IMGS/Hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-position: center;
-   
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .hero-text{
@@ -404,6 +418,66 @@ input{
 .main-nav li a:active {
     border-bottom: 3px solid #29C5FF ;
 }
+
 .battle{
 fill: #29C5FF  !important;
+}
+
+.nom{
+  float: left;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.nom li {
+display: inline-block;
+text-decoration: none;
+margin: 10px;
+;
+}
+
+.nom li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 90%;
+    transition: color 0.5s;
+} 
+
+.nom li a:hover{
+    color: #29C5FF;
+}
+
+.social-medias{
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+}
+
+.social-medias li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.social-medias li a {
+    color: #fff;
+    font-size:90% ;
+    transition: color 0.5s;
+}
+
+.social-medias li a:hover {
+    color: #29C5FF
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.863);
+    padding-bottom: 80px;
+}
+
+#context{
+color: #fff;
+margin-top: 100px;
+margin-left: 80px ;
+text-align: center;
+font-size: 110%;
 }
