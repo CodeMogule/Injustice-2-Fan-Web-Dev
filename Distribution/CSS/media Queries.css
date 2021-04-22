@@ -1,59 +1,113 @@
-@media Only screen and (max-width: 1200px){
-    header{
-    width: 100%;
-    background-size:cover;
-    padding-left: 100px;
+@media only screen and (max-width: 1200px){
+
+    *{
+        margin: 0;
+        padding: 0;
     }
 
-    .row{
-        padding: 2% 0;
-    }
 
-    .hero-text{
-        padding-left: 50px;
-    }
+   header{
+       width: 105vw;
+   }
+   .logo{
+       padding-left: 30px;
+   }
+   .hero-text{
+       padding-left: 30px;
+   }
 }
 
-@media Only screen and (max-width: 1024px){
-    .main-nav{
-        padding-right: 10px;
-    }
+@media only screen and (max-width: 1024px){
 
-    .hero-text{
-        padding-right: 20px;
-    }
-
-    .hero-text h1{
-       font-size: 170%;
-    }
-
-    
-}
-
-@media Only screen and (max-width: 768px){
     header{
-     height: 100px;
-     padding: 30px;
-     width: 150%;
+        height: 100vh;
+        width: 100vw;
     }
 
     .logo{
-        margin-left: 50px;
+    padding-left: 100px;
     }
 
-    .hero-text{
-        font-size: 140%;
+    .main-nav{
+        padding-right: 30px;
     }
-
-    .btn{
-        margin: 10px;
-    }
-
-    .row{
-        margin-left: 50px;
+    
+    section{
+          padding: 30px 0;
     }
 }
 
-@media Only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
+
+body{
+    font-size: 20px;
+}
+
+    header{
+        height: 160vh !important;
+        width:160vw !important;
+        padding-top: 50px;
+    }
+
+    .hero-text{
+        width: 100%;
+        padding-left: 20%;
+        padding-top: 100px;
+        margin-left: 300px;
+        font-size: 150%;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    section{
+    width: 150vw;
+    padding: 30px 0;
+    }
+
+    footer{
+            width: 160vw;
+            
+    }
+}
+
+@media only screen and (max-width: 600px){
+ body{
+     font-size: 17px;
+ }
+
+
+    header{
+        background-image: linear-gradient(rgba(37, 20, 20, 0.726),rgba(37, 20, 20, 0.459)),url(../IMGS/iphones.jpg) !important;
+        background-position: center center;
+        height: 310vh !important;
+        width: 310vw !important;
+    }
+
+    .hero-text{
+        width: 300%;
+        padding-left: 2%;
+        margin-left: 1111px;
+        padding-top:1000px ;
+        font-size: 300%;
+    }
+
+    .logo{
+        height: 350px !important;
+    }
+
+    .col{
+        width: 400vw;
+    }
+
+
+    section{
+        width: 150vh;
+        }
     
+        footer{
+                width: 153vw;
+                
+        }
 }
