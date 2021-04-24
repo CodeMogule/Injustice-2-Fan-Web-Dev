@@ -17,6 +17,12 @@
    }
 }
 
+@media only screen and (max-width:992px){
+    .ham{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1024px){
 
     header{
@@ -49,6 +55,27 @@ body{
         padding-top: 50px;
     }
 
+    .ham{
+        display: block !important;
+        float: right;
+        margin-right: 30px;
+        color: white;
+        cursor: pointer;
+        font-size: 150%; 
+        margin-top:-150px;
+    }
+
+    .x{
+        display: block;
+        float: right;
+        margin-left: 100px;
+        transform: translate(-150%);
+        color: white;
+        font-size: 150%;
+        cursor: pointer;
+        margin-top:-160px;
+    }
+
     .hero-text{
         width: 100%;
         padding-left: 20%;
@@ -63,8 +90,34 @@ body{
     }
 
     .main-nav{
-        display: none;
+      display: none;
+        font-size: 60%;
+        transform: translateX(10%);
+    transition: all 0.5s ease-in;
+    margin-top: -150px !important;
+    
     }
+
+    @keyframes navLinkFade{
+        from{
+          opacity:0;
+          transform: translateY(-50px);
+        }
+        to{
+          opacity: 1;
+          transform: translateY(0px);
+        }
+      }
+
+    .main-nav li{
+        display: block;
+        width: 50%;
+        margin: 10px;
+        float: right ;
+        
+    }
+
+
 
     section{
     width: 100vw;
@@ -96,6 +149,19 @@ body{
         margin-left: 220px;
         padding-top:1px ;
         font-size: 80%;
+    }
+
+    .ham {
+        padding-top: 18px;
+    }
+
+    .x {
+        padding-top: 18px;
+    }
+
+    .main-nav{
+        padding-left: 90px;
+        font-size: 50%;
     }
 
     .logo{
@@ -183,6 +249,18 @@ body{
      width: 100vw;
     }
 
+    .ham{
+       transform: translate(450%);
+    }
+
+    .x{
+        transform: translate(450%,10%);
+    }
+
+    .main-nav{transform: translate(43%);
+      width: 200vw;
+    }
+
     .inj-mobile{
         width: 100%;
     }
@@ -241,6 +319,20 @@ body{
             padding:20px;
            margin: 10px;
            padding: 0 0;
+          }
+
+          .ham{
+              padding-top:45px
+          }
+
+          .x {
+            padding-top:45px
+          }
+
+          .main-nav{
+          position: relative;
+          top: 40px;
+          right: 10px;
           }
 
           .logo{
